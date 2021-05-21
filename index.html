@@ -69,8 +69,9 @@
       if(liff.getContext().type !== "none"){
         await liff.sendMessages([
           {
-            "type": "text",
-            "text": "\uDBC0\uDC84 LINE original emoji"
+            "type": "sticker",
+            "stickerId": 1,
+            "packageId": 1
           }
         ])
         alert("Massage sent.");
